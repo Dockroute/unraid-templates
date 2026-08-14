@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://github.com/Dockroute.png</Icon>
+  <Profile>DockRoute is External-DNS for plain Docker hosts: it watches your running containers, reads dockroute.* labels and reconciles the matching DNS records (and Cloudflare Tunnel routes) in a pluggable provider. Your labels are the source of truth, and DockRoute never alters records it cannot prove it manages.</Profile>
+  <WebPage>https://www.dockroute.dev</WebPage>
+</Maintainer>
