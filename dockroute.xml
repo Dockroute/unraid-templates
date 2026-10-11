@@ -16,7 +16,7 @@ Opt a container in with labels: dockroute.enabled=true and dockroute.hostname=ap
 &#xD;
 Docs: https://www.dockroute.dev</Overview>
   <Category>Network:DNS Tools:Utilities</Category>
-  <Icon>https://github.com/Dockroute.png</Icon>
+  <Icon>https://raw.githubusercontent.com/Dockroute/dockroute-site/main/public/brand/dockroute-icon-128.png</Icon>
   <TemplateURL>https://raw.githubusercontent.com/Dockroute/unraid-templates/main/dockroute.xml</TemplateURL>
 
   <Config Name="Docker socket" Target="/var/run/docker.sock" Default="/var/run/docker.sock" Mode="ro" Description="Docker Engine socket (read-only). DockRoute only listens to events and lists containers." Type="Path" Display="advanced" Required="true" Mask="false">/var/run/docker.sock</Config>
